@@ -1,0 +1,78 @@
+
+
+.input-item {
+  padding: 1px;
+  border: none;
+  border-bottom: solid 5px #B22222;
+  transition: border 0.3s;
+  margin-right: 4px;
+  
+  background: none;
+  width: 40px;
+  text-align: center;
+  font-size: 2em;
+}
+
+#virtualKey {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+body {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 2em;
+	width: 100%;
+	font-family: 'Cinzel Decorative', cursive;
+	
+}
+
+li {
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.empty-item {
+	border:none;
+	padding: 1px;
+	margin-right: 4px;
+
+	width: 20px;
+  	text-align: center;
+}
+
+.cakes > img {
+	display: inline-block;
+	width: 18%;
+}
+
+.wrapper {
+	background-color: orange;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-size: 100% 100%;
+
+}
+
+#btn {
+
+	font-size: 2em;
+	text-decoration: none;
+	background: none;
+	color: white;
+	  border      : 0;
+	  font-family : inherit;
+	  cursor      : pointer;
+	  text-transform: uppercase;
+
+}
+
+
+
+
+

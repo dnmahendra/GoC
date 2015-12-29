@@ -1,0 +1,115 @@
+body {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 2em;
+	font-family: 'Cinzel Decorative', cursive;
+
+	background-image: url(images/cake-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;	
+	
+}
+
+.page-links > li {
+	margin-top: 5%;
+	margin-left: 5%;
+	display: inline-block;
+	padding-right: 5%;
+	font-weight: bold;
+	font-size: 2em;
+	text-shadow:#2e2e2e 0 4px 5px;
+
+}
+
+.page-links {
+	padding: 0;
+	margin-bottom: 10%;
+}
+
+a {
+	color: #388E8E;
+}
+
+.wrap-main {
+
+	margin-left: 30%;
+	margin-top: 10%;
+
+	
+}
+
+li {
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.intro {
+	font-size: 4em;
+	color: #FFFFFF;
+	text-shadow:#fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px;
+}
+
+.tag-line {
+	margin-top: -2.5em;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #B22222;
+}
+
+span {
+	font-weight: lighter;
+}
+
+#category {
+	margin-left: 0;
+	font-size: 1.5em;
+	color: yellow;
+	font-weight: bold;
+	text-shadow:#2e2e2e 0 4px 5px;
+}
+
+#category #category-list {
+	cursor: pointer;
+	font-weight: bold;
+	color: white;
+}
+
+.play {
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1em;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.play:hover {
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+.play:active {
+	position:relative;
+	top:1px;
+}
+
+.secret-word {
+	padding:6px;
+	font-size: 1em;
+}
+
+
+
+
+
+
+
