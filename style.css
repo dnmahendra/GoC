@@ -1,7 +1,7 @@
 
 
 .input-item {
-  padding: 1px;
+  padding: 5px;
   border: none;
   border-bottom: solid 5px #B22222;
   transition: border 0.3s;
@@ -10,7 +10,7 @@
   background: none;
   width: 40px;
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 #virtualKey {
