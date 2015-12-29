@@ -10,7 +10,7 @@ var selectCategory = function() {
 		var category = event.target.innerHTML.toLowerCase();
 	}
 
-		var strPath = "index.html?param=" + category + '&' + 'player=1';; 
+		var strPath = "play.html?param=" + category + '&' + 'player=1';; 
 
 	window.location.assign(strPath);
 }
@@ -22,7 +22,7 @@ var secretWord = function() {
 
 	localStorage.secrtWord = secretText.value;
 
-	var strPath = "index.html?player=2";
+	var strPath = "play.html?player=2";
 
 	window.location.assign(strPath);
 

@@ -88,7 +88,7 @@ var usrInput = function() {
 		var newlink = document.createElement('a');
 		var linkText = document.createTextNode('Play Again')
 		newlink.setAttribute('class', 'home-page');
-		newlink.setAttribute('href', 'main.html');
+		newlink.setAttribute('href', 'index.html');
 		newlink.appendChild(linkText);
 		playAgain.appendChild(newlink);
 
@@ -103,7 +103,7 @@ var usrInput = function() {
 		var newlink = document.createElement('a');
 		var linkText = document.createTextNode('Play Again')
 		newlink.setAttribute('class', 'home-page');
-		newlink.setAttribute('href', 'main.html');
+		newlink.setAttribute('href', 'index.html');
 		newlink.appendChild(linkText);
 		playAgain.appendChild(newlink);
 
