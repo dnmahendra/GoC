@@ -93,6 +93,7 @@ span {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #b23e35;
 }
+
 .play:hover {
 	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
 	background-color:#ce0100;

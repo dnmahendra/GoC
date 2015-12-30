@@ -37,12 +37,15 @@ a{
 }
 
 .empty-item {
-	border:none;
-	padding: 1px;
-	margin-right: 4px;
-
-	width: 20px;
-  	text-align: center;
+  padding: 5px;
+  border: none;
+  transition: border 0.3s;
+  margin-right: 4px;
+  
+  background: none;
+  width: 40px;
+  text-align: center;
+  font-size: 1em;
 }
 
 .cakes > img {
@@ -60,16 +63,14 @@ a{
 }
 
 #btn {
-
 	font-size: 2em;
 	text-decoration: none;
 	background: none;
 	color: white;
-	  border      : 0;
-	  font-family : inherit;
-	  cursor      : pointer;
-	  text-transform: uppercase;
-
+    border      : 0;
+    font-family : inherit;
+    cursor      : pointer;
+    text-transform: uppercase;
 }
 
 

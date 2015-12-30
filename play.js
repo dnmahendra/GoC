@@ -47,11 +47,13 @@ for(var i=0; i<arg.split('').length; i++) {
 	if(arg.split('')[i] !== ' ') {
 		newItem = document.createElement('input');
 		newItem.className = 'input-item';
+		newItem.setAttribute('readonly','true');
 		input.appendChild(newItem);
 		}
 	else {
 		newItem = document.createElement('input');
 		newItem.className = 'empty-item';
+		newItem.setAttribute('readOnly', 'true');
 		input.appendChild(newItem);
 		}
 	}
@@ -78,7 +80,7 @@ var usrInput = function() {
 				numImages++;
 			}
 	}
-	if(arrReturn[1] === word.length) {
+	if(arrReturn[1] === word.replace(/\s+|/g,'').length) {
 		newItem = document.createElement('p');
 		newItem.className = 'game-won';
 		var contentNode = document.createTextNode("Congrats! You got it!");
